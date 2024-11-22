@@ -1,9 +1,13 @@
 body{
     background-color: #fbeeda;
 }
+
+#apresentacao{
+margin-top: 30px;
+}
+
 header{
     display: flex;
-    position:absolute;
     justify-content: space-between;
     align-items: center;
     background-color: #c6101300;
@@ -12,35 +16,30 @@ header{
     margin: 0px;
     padding-right: 20px;
 }
-#header{
+#logo{
+    display: flex;
     width: 100px;
     height: 50px;
     margin-right: 80px;
+    justify-content: center;
+    align-items: center;
 }
 #titulo{
-    position:absolute;
-    left: 50px;
-    top: 10px;
     flex-direction: column;
     font-family: serif;
     color: #aa0707;
-    margin:0px;
+    margin-left: 5px;
 }
 #subtitulo{
-    position: absolute;
-    left: 50px;
-    top: 30px;
     flex-direction: column;
     font-family:Verdana;
     color: #6a0037;
     font-size: 6px;
-    margin: 0px;
+    margin-top: -15px;
+    margin-left: 25px;
 
 }
 #simbolo{
-    position: absolute;
-    top:0px;
-    left: 20px;
     font-size: 30px;
     flex-direction: row;
     color: #520739;
@@ -63,10 +62,36 @@ header{
     padding: 0px;
 }
 #gifs{
-
     width: 160px;
     overflow: hidden;
     background: #000; 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    height:min-content;
+}
+
+#imagens{
+    display: flex;
+    height: 180px;
+    align-items: center;
+    width: 250px;
+    justify-content: center;
+}
+
+#botaoesquerdagif{
+    position: relative;
+    left: 20px;
+    height: 25px;
+    background-color: transparent;
+    border: 0px;
+    color:#930002;
+}
+
+#botaodireitagif{
+    position: relative;
+    left: -20px;
+    height: 25px;
+    background-color: transparent;
+    border: 0px;
+    color:#930002;
 }
