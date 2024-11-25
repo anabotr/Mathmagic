@@ -1,7 +1,7 @@
 //função para passar os gifs pelo botão
 const gif = document.getElementById("gifs");
 var indice = 0
-let gifslista = ["gifs/espiral-áurea-hcc.gif", "gifs/animacao-pi.gif", "gifs/200w.gif", "gifs/gif-matematico-12.gif", "gifs/gif-matematico-13.gif", "gifs/gif-matematico-25.gif", "gifs/gif-matematico-31.gif"]
+let gifslista = ["./gifs/espiral-áurea-hcc.gif", "./gifs/animacao-pi.gif", "./gifs/200w.gif", "./gifs/gif-matematico-12.gif", "./gifs/gif-matematico-13.gif", "./gifs/gif-matematico-25.gif", "./gifs/gif-matematico-31.gif"]
 
 const botaoesquerdagif = document.getElementById('botaoesquerdagif');
 botaoesquerdagif.addEventListener('click', passagifesquerda);
